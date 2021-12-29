@@ -21,7 +21,7 @@ public class PcreateOrgwithIndTest extends BaseClass{
 		 OrgHomePage o = new OrgHomePage(driver);
 		 o.getOrgPlus().click();
 		 o.getorgwithIndutry().click();
-		 o.selectIndustry("HealthCare");
+		 o.selectIndustry("Healthcare");
 	 }
 
 }
