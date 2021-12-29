@@ -8,7 +8,7 @@ import com.crm.vtiger.objectRepository.BaseClass;
 
 
 public class CreateOrgwithIndustrytest extends BaseClass {
-	@Test(groups={"Smoketest","RegressionTest"})
+	@Test
 	public void OrgtestwithInd() {
 		
 		driver.findElement(By.xpath("(//a[text()='Organizations'])[1]")).click();
