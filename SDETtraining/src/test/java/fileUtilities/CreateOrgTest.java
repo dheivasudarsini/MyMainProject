@@ -8,7 +8,7 @@ import com.crm.vtiger.objectRepository.BaseClass;
 
 
 public class CreateOrgTest extends BaseClass  {
-	@Test
+	@Test(groups={"Smoketest","RegressionTest"})
 	
 	public void createOrg() {
 		
